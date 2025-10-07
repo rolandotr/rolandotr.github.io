@@ -1,0 +1,72 @@
+/*remove all the images */
+  #leftimg{display:none;}
+
+
+/*fix header layout*/
+.header {
+	height: 110px;
+}
+
+
+/*layout for the header */
+#unilogo{
+        width: 140px;
+        padding: 0px 0px 0px 0px;
+        float: left;
+}
+
+#unilu{
+	width:200px;
+	height:200px;
+}
+
+#headertext{
+        padding: 35px 0px 0px 0px;
+        float: left;
+}
+
+#satosslogo{
+        width: 250px;
+        padding: 0px 0px 0px 0px;
+        float:right;
+        text-align:right;
+        font-size:9pt;
+}
+#satoss{
+        width:208px;
+        height:90px;
+
+}
+
+
+div#menu{
+        float: left;
+        width: 210px;
+        padding: 0px 0px 0 0px ;
+}
+div#textcontent{
+        margin-left: 210px;
+}
+#content{
+        height: 100%;
+}
+.footer{
+text-align: center;
+}
+
+.footer p {
+        font: 0.8em arial,sans-serif;
+}
+
+#bar{
+  width:100%;
+  text-align: center;
+  font: 0.8em arial,sans-serif;
+
+}
+
+img{    border: 0px;}
+.header a {
+        color:#01A8DC;
+        text-decoration:none;
+}

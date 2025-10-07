@@ -1,0 +1,70 @@
+/*************** bibtex formatting *************/
+
+.bibentry {
+	/* margin-bottom: 0pt; */
+	margin-right: 30pt;
+	/* text-align: justify; */
+}
+
+.bibentry .title {
+	font-weight: bold;
+}
+
+.bibentry .author {
+}
+
+.bibentry .proctitle {
+	font-style: italic;
+}
+
+.bibentry .journaltitle {
+}
+.bibentry .booktitle {
+}
+
+.bibentry .biblinks {
+	/* to hide the links */
+	/* visibility: hidden; */
+}
+
+.biblist-outer {
+	margin-top: -10pt;
+}
+
+.BibHTML h2 {
+	margin-right: 30pt;
+}
+
+.BibHTML h3 {
+	margin-right: 30pt;
+	margin-left: 15pt;
+	padding-bottom: 2pt;
+}
+
+.biblist-type {
+	width: 50%;
+}
+
+.biblist-entries {
+	margin-bottom: 10pt;
+	list-style-type: decimal;
+	/* for non-numbered lists */
+	/* list-style-type: circle; */
+	margin-left: -15pt;
+}
+
+.toggle {
+	text-align: left;
+	color: #01A8DC;
+	font-size: small;
+	padding-right: 4pt;
+}
+
+.attribution {
+	text-align: right;
+	margin-top: -6pt;
+	font-size: xx-small;
+	font-style: italic;
+}
+
+/*************** /bibtex formatting *************/
