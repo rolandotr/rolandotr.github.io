@@ -37,6 +37,15 @@ html, body {
 }
 
 
+/* Responsive layout for screens narrower than 1020px */
+@media (max-width: 1020px) {
+	.wrapper, .header, .footer {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+
 
 
 

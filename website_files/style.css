@@ -280,3 +280,48 @@ h2,h3 {
 	color: red;
 	font-weight: bold;
 }
+
+
+/* Responsive layout for mobile devices */
+@media (max-width: 1020px) {
+	.wrapper {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.footer {
+		width: 100%;
+	}
+	div#menu {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	div#leftpic {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	div#textcontent {
+		width: 100%;
+		margin-left: 0;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	#unilogo {
+		padding: 10px 0 0 10px;
+	}
+	#unilu {
+		width: 80px;
+		height: 80px;
+	}
+	#headertext {
+		padding: 15px 0 0 10px;
+	}
+}
